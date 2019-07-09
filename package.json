@@ -1,0 +1,30 @@
+{
+  "name": "hooklab",
+  "version": "1.0.0",
+  "description": "hook函数测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky":{
+    "hooks":{
+      "pre-commit":"echo 111"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjwgank/hookLab.git"
+  },
+  "keywords": [
+    "hook"
+  ],
+  "author": "zjwgank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjwgank/hookLab/issues"
+  },
+  "homepage": "https://github.com/zjwgank/hookLab#readme",
+  "dependencies": {
+    "husky": "^3.0.0"
+  }
+}
