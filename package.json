@@ -8,7 +8,7 @@
   },
   "husky":{
     "hooks":{
-      "pre-commit":"echo 111 && git config core.autocrlf input"
+      "pre-commit":"echo 111 && git config core.safecrlf true && git config core.autocrlf input"
     }
   },
   "repository": {
