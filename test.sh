@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo '111'
+echo "你好"
