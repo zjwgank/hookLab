@@ -1,0 +1,8 @@
+{
+    "plugins": ["prettier"],
+    "rules": {
+        "eol-last":[2,"always"],
+        "semi":[2,"always"],
+        "prettier/prettier":2
+    },
+}
